@@ -22,7 +22,7 @@ Write-Host Get AZ Module
 Get-InstalledModule -Name "Az"
 
 #Connect
-#Connect-AzAccount -Subscription $subscriptionname
+Connect-AzAccount -Subscription $subscriptionname
 
 #create res group if not exists
 Write-Host Create Resource Group
